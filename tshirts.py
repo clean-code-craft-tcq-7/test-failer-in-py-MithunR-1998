@@ -9,6 +9,7 @@ def size(cms):
 
 
 assert(size(37) == 'S')
+assert(size(38) == 'M') #Might be S or M, to be discussed M
 assert(size(40) == 'M')
 assert(size(43) == 'L')
 print("All is well (maybe!)")
