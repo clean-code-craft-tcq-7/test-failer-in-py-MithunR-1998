@@ -29,6 +29,7 @@ def print_color_map(code_max, major_max, minor_max, color_map):
     for line in gen_print_str:
         print (f'{line}')
     return (gen_print_str)
+
 (c_max, maj_max, min_max, gen_map) = generate_color_map()
 generated_str = print_color_map(c_max, maj_max, min_max, gen_map)
 
@@ -46,3 +47,4 @@ assert(generated_str[7][3] == '|')
 assert(generated_str[13][12] == '|')
 assert(generated_str[24][3] == '|')
 assert(generated_str[17][12] == '|')
+
